@@ -1,0 +1,20 @@
+.place__paragraph_text {
+    margin: 0;
+    margin-bottom: 27px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.67;
+  }
+  
+  .place__paragraph_text:last-of-type {
+    margin-bottom: 0;
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .place__paragraph_text {
+      font-size: 16px;
+      line-height: 1.62;
+      margin-bottom: 25px;
+    }
+  }
